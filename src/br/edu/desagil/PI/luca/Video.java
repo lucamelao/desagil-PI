@@ -22,7 +22,9 @@ public class Video {
 		int total = avaliacoes.size();
 		double soma = 0;
 		for (int i = 0; i < total; i++) {
-			soma += avaliacoes.get(k);
-		
+			soma += avaliacoes.get(i);
 		}
+		double media = soma/total;
+		return Math.round(media);
+	}
 }

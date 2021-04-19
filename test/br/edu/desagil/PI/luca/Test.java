@@ -2,12 +2,11 @@ package br.edu.desagil.PI.luca;
 
 import java.util.HashMap;
 import java.util.Map;
-
-//import java.util.ArrayList;
-//import java.util.List;
-//import org.junit.jupiter.api.BeforeEach;
-//import org.junit.jupiter.api.Test;
-//import static org.junit.jupiter.api.Assertions.assertEquals;
+import java.util.ArrayList;
+import java.util.List;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Test {
 	//private static double DELTA = 0.01;
@@ -31,6 +30,6 @@ public class Test {
 //		d.put(k, v)
 //		d.put(k, v)
 
-		assertEquals(4, V.mediaAvaliacoes(c), DELTA);
+		assertEquals(4, V.mediaAvaliacoes());
 	}
 
