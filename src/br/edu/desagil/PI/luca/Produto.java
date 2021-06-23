@@ -16,3 +16,6 @@ public class Produto {
 		return this.preco;
 	}
 }
+
+// preço e nome podem pode ser lido por outras classes,
+// mas não podem ser escritos por outras classes.
